@@ -26,10 +26,10 @@ export function ServiceHero({ name, categoryName, title, subtitle, aiOverview, i
           fill
           priority
           sizes="100vw"
-          className="object-cover"
+          className="object-cover filter brightness-105 contrast-105"
         />
         {/* Subtle natural scrim for high image clarity and text legibility */}
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-950/45 to-transparent pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-950/40 to-transparent pointer-events-none" />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-black/20 pointer-events-none" />
       </div>
 

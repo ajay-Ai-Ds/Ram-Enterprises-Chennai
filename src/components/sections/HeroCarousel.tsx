@@ -105,10 +105,11 @@ export default function HeroCarousel() {
             fill
             priority
             sizes="100vw"
-            className="object-cover object-center opacity-35 filter brightness-90"
+            className="object-cover object-center opacity-90 filter brightness-105 contrast-105"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#06101C] via-[#06101C]/85 to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#06101C] via-transparent to-transparent" />
+          {/* Subtle directional gradient for crisp text readability while leaving images vivid and clear */}
+          <div className="absolute inset-0 bg-gradient-to-r from-[#06101C]/90 via-[#06101C]/50 sm:via-[#06101C]/30 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#06101C]/80 via-transparent to-black/20" />
         </motion.div>
       </AnimatePresence>
 
