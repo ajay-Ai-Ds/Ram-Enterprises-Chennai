@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #F0F4F8;
+  --color-primary-100: #D9E2EC;
+  --color-primary-200: #BCCCDC;
+  --color-primary-300: #9FB3C8;
+  --color-primary-400: #627D98;
+  --color-primary-500: #334E68;
+  --color-primary-600: #1A3A5C;
+  --color-primary-700: #0F2137;
+  --color-primary-800: #0A1829;
+  --color-primary-900: #06101C;
+  
+  --color-navy-dark: #06101C;
+  --color-navy-primary: #0F2137;
+  --color-navy-light: #1A3A5C;
+  --color-navy-blue: #0F2137;
+  
+  --color-accent-copper: #B87333;
+  --color-accent-copper-light: #D08A52;
+  --color-accent-gold: #B87333;
+  --color-accent-amber: #D08A52;
+  --color-accent-hover: #D08A52;
+  
+  --color-success-green: #25D366;
+  --color-bg-light: #FAFAFA;
+  --color-border-subtle: #E2E8F0;
+  
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: #4A4A4A;
+  
+  --font-sans: var(--font-inter), var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom premium scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAFAFA;
+}
+::-webkit-scrollbar-thumb {
+  background: #0F2137;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B87333;
+}
+
+/* Text Gradient Utility */
+.text-gradient {
+  background: linear-gradient(135deg, #0F2137 0%, #B87333 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Deep Navy & Copper CTA Button Utilities */
+.btn-primary-red, .btn-primary-accent, .btn-accent {
+  background: linear-gradient(135deg, #0F2137 0%, #1A3A5C 100%);
+  color: #ffffff;
+  font-weight: 800;
+  border-radius: 9999px;
+  box-shadow: 0 10px 25px rgba(15, 33, 55, 0.35);
+  transition: all 300ms ease;
+}
+.btn-primary-red:hover, .btn-primary-accent:hover, .btn-accent:hover {
+  background: linear-gradient(135deg, #1A3A5C 0%, #0F2137 100%);
+  color: #ffffff;
+  box-shadow: 0 15px 30px rgba(15, 33, 55, 0.50);
+  transform: translateY(-2px);
+}
+
+.btn-gold, .btn-amber, .btn-copper {
+  background: linear-gradient(135deg, #B87333 0%, #D08A52 100%);
+  color: #ffffff;
+  font-weight: 800;
+  border-radius: 9999px;
+  box-shadow: 0 10px 25px rgba(184, 115, 51, 0.35);
+  transition: all 300ms ease;
+}
+.btn-gold:hover, .btn-amber:hover, .btn-copper:hover {
+  background: linear-gradient(135deg, #D08A52 0%, #B87333 100%);
+  color: #ffffff;
+  box-shadow: 0 15px 30px rgba(184, 115, 51, 0.50);
+  transform: translateY(-2px);
+}
+
+.btn-secondary-red, .btn-secondary-navy {
+  background: transparent;
+  border: 2px solid #B87333;
+  color: #ffffff;
+  border-radius: 9999px;
+  transition: all 300ms ease;
+}
+.btn-secondary-red:hover, .btn-secondary-navy:hover {
+  background: #B87333;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.btn-navy {
+  background: linear-gradient(135deg, #0F2137 0%, #1A3A5C 100%);
+  color: #ffffff;
+  font-weight: 800;
+  border-radius: 9999px;
+  box-shadow: 0 10px 25px rgba(15, 33, 55, 0.25);
+  transition: all 300ms ease;
+}
+.btn-navy:hover {
+  background: #1A3A5C;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* Card Hover Animation Utility */
+.card-premium {
+  background: #ffffff;
+  border: 1px solid #E2E8F0;
+  border-radius: 20px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.04);
+  transition: all 300ms ease;
+}
+.card-premium:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 45px rgba(15, 33, 55, 0.08);
+  border-color: #B87333;
+}
+
+/* Custom scroll-margin for anchor links */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}

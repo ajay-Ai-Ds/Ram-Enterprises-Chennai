@@ -1,0 +1,64 @@
+"use client";
+
+import { motion } from "framer-motion";
+import { Shield, Users, Award, MapPin } from "lucide-react";
+
+export default function Stats() {
+  const stats = [
+    {
+      icon: Shield,
+      value: "5,000+",
+      label: "Installations Completed",
+      desc: "Balconies, windows, and sports grounds secured across Chennai",
+    },
+    {
+      icon: Users,
+      value: "99.8%",
+      label: "Customer Satisfaction",
+      desc: "Verified 5-star ratings from apartment owners and housing societies",
+    },
+    {
+      icon: Award,
+      value: "5 Years",
+      label: "Direct Warranty",
+      desc: "Official replacement guarantee on materials and tensile hardware",
+    },
+    {
+      icon: MapPin,
+      value: "20+",
+      label: "Chennai Localities",
+      desc: "Fast doorstep coverage from Adyar & OMR to Anna Nagar & Tambaram",
+    },
+  ];
+
+  return (
+    <section className="py-16 bg-[#0A1829] text-white border-b border-[#1A3A5C]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+          {stats.map((stat, idx) => {
+            const Icon = stat.icon;
+            return (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.3, delay: idx * 0.05 }}
+                className="flex flex-col items-center text-center p-4 rounded-2xl bg-white/5 border border-white/10"
+              >
+                <div className="w-12 h-12 rounded-xl bg-[#B87333]/20 flex items-center justify-center text-[#B87333] mb-3">
+                  <Icon className="w-6 h-6" />
+                </div>
+                <span className="text-3xl sm:text-4xl font-black text-[#B87333] tracking-tight">
+                  {stat.value}
+                </span>
+                <span className="text-sm font-bold text-white mt-1">{stat.label}</span>
+                <p className="text-[11px] text-slate-300 mt-1 leading-snug">{stat.desc}</p>
+              </motion.div>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+}
