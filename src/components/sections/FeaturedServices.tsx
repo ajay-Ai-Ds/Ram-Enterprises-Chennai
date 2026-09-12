@@ -173,8 +173,12 @@ export default function FeaturedServices() {
                             <span>{service.categoryName}</span>
                           </div>
 
-                          <div className="absolute bottom-3 left-3 bg-white/95 backdrop-blur-xs text-[#0F2137] text-[10px] font-bold px-2.5 py-1 rounded-md shadow-xs">
-                            5-Year Warranty
+                          <div className="absolute bottom-3 left-3 bg-white/95 backdrop-blur-xs text-[#0F2137] text-[10px] font-extrabold px-2.5 py-1 rounded-md shadow-xs">
+                            {service.category === "invisible-grills"
+                              ? "10+ Years Guarantee"
+                              : service.category === "cloth-hangers"
+                              ? "3-Year Warranty"
+                              : "5-Year Warranty"}
                           </div>
                         </div>
 

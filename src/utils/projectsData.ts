@@ -101,7 +101,7 @@ export const projectsData: Record<string, ProjectDetail> = {
       { label: "Cable Pitch", value: "75mm (3 Inches) Architectural Spacing" },
       { label: "Breaking Force", value: "400+ kg tensile limit per cable" },
       { label: "Corrosion Protection", value: "100% Saline Mist Resistant" },
-      { label: "Warranty Issued", value: "5 Years Anti-Rust & Tension Assurance" },
+      { label: "Warranty Issued", value: "10+ Years Anti-Rust & Tension Guarantee" },
     ],
   },
 

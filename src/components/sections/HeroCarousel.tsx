@@ -28,7 +28,7 @@ const slides: Slide[] = [
     altText: "Ram Enterprises marine-grade SS316 invisible wire grills installed on an upscale Chennai high-rise balcony",
     ctaText: "Explore Invisible Grills",
     ctaLink: "/services/balcony-invisible-grills",
-    badge: "Chennai's Premier Safety Engineering",
+    badge: "10+ Years Guarantee | SS316 Marine Stainless",
   },
   {
     id: 2,

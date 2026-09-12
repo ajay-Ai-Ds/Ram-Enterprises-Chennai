@@ -92,10 +92,10 @@ export default function InvisibleGrillsCategoryPage() {
             Primary Division
           </span>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-800 tracking-tight leading-tight">
-            Invisible Grills (3 Services)
+            Invisible Grills ({categoryServices.length} Services)
           </h1>
           <p className="text-slate-500 text-sm sm:text-base leading-relaxed">
-            Replace heavy iron grids with modern, sleek invisible grills. Engineered with marine-grade SS316 wires wrapped in nylon coating, they ensure high load-bearing security (up to 400kg) while keeping views unobstructed.
+            Replace heavy iron grids with modern, sleek invisible grills. Engineered with marine-grade SS316 stainless steel wires wrapped in protective DuPont nylon coating, our systems deliver 400kg+ tensile breaking strength, 100% rustproof durability, and a comprehensive 10+ Years Guarantee while preserving unobstructed 180° panoramic views.
           </p>
         </div>
 

@@ -36,7 +36,9 @@ function generateFAQsForService(serviceName: string, category: string): FAQItem[
     },
     {
       question: `What warranty coverage accompanies ${serviceName} from Ram Enterprises?`,
-      answer: "All installations come with a comprehensive 3 to 5 Year Service & Replacement Guarantee protecting against sunlight embrittlement, tension sag, and material corrosion.",
+      answer: category === "invisible-grills"
+        ? "All SS316 marine invisible grill installations come with an extensive 10+ Year Anti-Rust & Tension Assurance Guarantee protecting against coastal corrosion and cable sag."
+        : "All installations come with a comprehensive 3 to 5 Year Service & Replacement Guarantee protecting against sunlight embrittlement, tension sag, and material corrosion.",
     },
     {
       question: `How long does our technician crew take to complete the installation?`,
@@ -594,7 +596,7 @@ export const servicesData: Record<string, ServiceDetail> = {
       "Preserves an unobstructed 180° scenic view and abundant natural breeze",
       "Structural grade T6 powder-coated aluminium tracks that never rust",
       "Tamper-proof internal lock-bush engineering ensures permanent tension",
-      "Includes an official 5-Year Anti-Rust & Tension Assurance Warranty",
+      "Includes an official 10+ Year Anti-Rust & Tension Assurance Guarantee",
     ],
     specsTable: [
       { label: "Cable Metallurgy", value: "SS316 Marine Grade Multi-Strand Stainless (7x7)" },
@@ -604,7 +606,7 @@ export const servicesData: Record<string, ServiceDetail> = {
       { label: "Mounting Profile", value: "Heavy T6 Anodized & Powder-Coated Aluminium Track" },
       { label: "Corrosion Proofing", value: "100% Saline Rust-Proof (Marine Coastal Grade)" },
       { label: "Emergency Egress", value: "Can be cut with rescue wire cutters during emergencies" },
-      { label: "Warranty Coverage", value: "5 Years Anti-Rust & Structural Tension Warranty" },
+      { label: "Warranty Coverage", value: "10+ Years Anti-Rust & Structural Tension Guarantee" },
     ],
     faqs: generateFAQsForService("Balcony Invisible Grills", "invisible-grills"),
   },
@@ -641,7 +643,7 @@ export const servicesData: Record<string, ServiceDetail> = {
       "Smooth nylon sheathing eliminates sharp edges, preventing accidental cuts",
       "No cage-like prison feeling — preserves natural sunlight and breeze",
       "Heavy-duty anchored base tracks withstand extreme jumping impact",
-      "5-Year Workmanship & Tension Guarantee for high-rise families",
+      "10+ Year Workmanship & Tension Guarantee for high-rise families",
     ],
     specsTable: [
       { label: "Cable Pitch (Spacing)", value: "50mm (2 Inches) High-Density Childproof Spacing" },
@@ -651,7 +653,7 @@ export const servicesData: Record<string, ServiceDetail> = {
       { label: "Base Track", value: "Extruded Aluminium Alloy T6 (1.5mm Thickness)" },
       { label: "Fasteners", value: "SS304 Heavy Expansion Concrete Sleeve Anchors" },
       { label: "Visual Clarity", value: "98% Optical Transparency from 2 meters away" },
-      { label: "Warranty", value: "5 Years Direct Replacement & Tension Warranty" },
+      { label: "Warranty", value: "10+ Years Direct Replacement & Tension Guarantee" },
     ],
     faqs: generateFAQsForService("Children Invisible Grills", "invisible-grills"),
   },
@@ -688,7 +690,7 @@ export const servicesData: Record<string, ServiceDetail> = {
       "Tight 50mm cable spacing prevents curious cats and small puppies from escaping",
       "Eliminates balcony cage look while providing impenetrable containment",
       "Non-corrosive aluminium guide rails endure all outdoor weather conditions",
-      "Backed by Ram Enterprises 5-Year Pet Protection Warranty",
+      "Backed by Ram Enterprises 10+ Year Pet Protection Guarantee",
     ],
     specsTable: [
       { label: "Cable Metallurgy", value: "SS316 Marine Stainless (Chew-Proof Core)" },
@@ -698,7 +700,7 @@ export const servicesData: Record<string, ServiceDetail> = {
       { label: "Profile Track", value: "T6 High-Strength Powder-Coated Aluminium" },
       { label: "Toxicity Rating", value: "100% Pet-Safe and Non-Toxic Formulation" },
       { label: "Coastal Endurance", value: "100% Rust-Free in coastal saline climates" },
-      { label: "Warranty Period", value: "5 Years Anti-Chew & Anti-Rust Warranty" },
+      { label: "Warranty Period", value: "10+ Years Anti-Chew & Anti-Rust Guarantee" },
     ],
     faqs: generateFAQsForService("Pet-Safe Invisible Grills", "invisible-grills"),
   },
@@ -735,7 +737,7 @@ export const servicesData: Record<string, ServiceDetail> = {
       "Multi-strand SS316 marine steel cables withstand over 400kg per line",
       "Seamless integration with sliding UPVC, aluminium, or wooden window frames",
       "Zero repainting required — will never rust or flake in coastal humidity",
-      "Official 5-Year Replacement Warranty on all window installations",
+      "Official 10+ Year Replacement Guarantee on all window installations",
     ],
     specsTable: [
       { label: "Wire Construction", value: "SS316 Grade Stainless Cable Core (7x7 Braided)" },
@@ -745,7 +747,7 @@ export const servicesData: Record<string, ServiceDetail> = {
       { label: "Orientation", value: "Vertical or Horizontal Cable Configuration" },
       { label: "Spacing Options", value: "50mm (2 Inches) or 75mm (3 Inches)" },
       { label: "Window Compatibility", value: "UPVC, Aluminium, Wooden & Concrete Openings" },
-      { label: "Warranty Term", value: "5 Years Anti-Rust & Cable Stability Guarantee" },
+      { label: "Warranty Term", value: "10+ Years Anti-Rust & Cable Stability Guarantee" },
     ],
     faqs: generateFAQsForService("Window Invisible Grills", "invisible-grills"),
   },
@@ -782,7 +784,7 @@ export const servicesData: Record<string, ServiceDetail> = {
       "Modern architectural finish adds luxury appeal to duplex interiors",
       "Ultra-strong SS316 marine cables anchored into ceiling beams and floor slabs",
       "Allows complete illumination and unblocked interior sightlines",
-      "Backed by Ram Enterprises 5-Year Structural Workmanship Warranty",
+      "Backed by Ram Enterprises 10+ Year Structural Workmanship Guarantee",
     ],
     specsTable: [
       { label: "Cable Metallurgy", value: "SS316 Marine Grade Multi-Strand Stainless (7x7)" },
@@ -792,7 +794,7 @@ export const servicesData: Record<string, ServiceDetail> = {
       { label: "Structural Anchors", value: "Heavy-Duty Expansion Anchor Bolts in Concrete" },
       { label: "Tensile Capacity", value: "400+ kg breaking force per vertical strand" },
       { label: "Aesthetic Profile", value: "Minimalist Architectural Line Design" },
-      { label: "Warranty Term", value: "5 Years Structural & Tension Assurance" },
+      { label: "Warranty Term", value: "10+ Years Structural & Tension Assurance" },
     ],
     faqs: generateFAQsForService("Staircase Invisible Grills", "invisible-grills"),
   },
