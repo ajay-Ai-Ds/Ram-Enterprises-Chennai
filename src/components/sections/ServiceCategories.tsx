@@ -107,13 +107,21 @@ export default function ServiceCategories() {
                   </p>
                 </div>
 
-                <Link
-                  href={`/services/${category.slug}`}
-                  className="inline-flex items-center gap-2 text-[#0F2137] font-bold text-sm hover:text-[#B87333] transition-colors group/link mt-auto"
-                >
-                  <span>Discover {category.name}</span>
-                  <ArrowRight className="w-4 h-4 transition-transform duration-200 group-hover/link:translate-x-1 text-[#B87333]" />
-                </Link>
+                <div className="flex items-center justify-between pt-4 border-t border-slate-100 mt-auto">
+                  <a
+                    href={`#${category.slug}`}
+                    className="inline-flex items-center gap-1.5 text-xs font-extrabold uppercase tracking-wider text-[#0F2137] hover:text-[#B87333] transition-colors"
+                  >
+                    <span>View All Cards</span>
+                    <ArrowRight className="w-3.5 h-3.5 text-[#B87333]" />
+                  </a>
+                  <Link
+                    href={`/services/${category.slug}`}
+                    className="text-xs font-bold text-slate-500 hover:text-[#B87333] underline transition-colors"
+                  >
+                    Category Page
+                  </Link>
+                </div>
               </div>
             </motion.div>
           ))}
