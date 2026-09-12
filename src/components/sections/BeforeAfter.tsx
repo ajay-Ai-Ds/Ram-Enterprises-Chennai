@@ -62,7 +62,7 @@ export default function BeforeAfter() {
           >
             <div className="relative h-72 sm:h-96 w-full">
               <Image
-                src="/images/gallery/after_balcony.png"
+                src="/images/main-images/Balcony-Grills.jpg"
                 alt="Protected high-rise balcony with Ram Enterprises safety netting and invisible grills"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

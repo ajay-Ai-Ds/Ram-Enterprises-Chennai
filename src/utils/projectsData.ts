@@ -133,7 +133,7 @@ export const projectsData: Record<string, ProjectDetail> = {
     image: "/images/materials/clothhangerwork.jpeg",
     gallery: [
       "/images/materials/clothhangerwork.jpeg",
-      "/images/services/service_balcony_hanger.png",
+      "/images/main-images/clothhangerwork2.jpg",
     ],
     beforeImage: "/images/gallery/before_balcony.png",
     afterImage: "/images/materials/clothhangerwork.jpeg",

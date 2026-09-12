@@ -35,7 +35,7 @@ const caseStudiesData: CaseStudy[] = [
     title: "Securing Multi-Story Balcony Railings at Skyview Residency",
     location: "Adyar, Chennai, Tamil Nadu",
     serviceCategory: "Balcony Safety Nets",
-    image: "/images/services/service_balcony_net.png",
+    image: "/images/hero/balconysafetynet.jpg",
     challenge:
       "A young family with toddlers moving into a 14th-floor corner apartment faced severe anxiety over modern horizontal open railings with wide 6-inch gap spacing.",
     solution:
@@ -51,7 +51,7 @@ const caseStudiesData: CaseStudy[] = [
     title: "Panoramic Sea-View Invisible Grills at Ocean Crest Penthouse",
     location: "Velachery, Chennai, Tamil Nadu",
     serviceCategory: "Balcony Invisible Grills",
-    image: "/images/services/service_invisible_grill.png",
+    image: "/images/services/shyambalconygrills.jpg",
     challenge:
       "A penthouse resident needed robust fall protection for grandchildren and a golden retriever without obstructing a breathtaking 180-degree ocean view or rusting from coastal saline mist.",
     solution:
@@ -67,7 +67,7 @@ const caseStudiesData: CaseStudy[] = [
     title: "Large-Scale Bird Proofing Across 12 Residential Duct Shafts",
     location: "Anna Nagar, Chennai, Tamil Nadu",
     serviceCategory: "Duct Area Safety Nets",
-    image: "/images/hero/duct-area-net.jpg",
+    image: "/images/main-images/Duct-Area-3.jpg",
     challenge:
       "A 240-unit gated residential society suffered from severe pigeon nesting across 12 vertical plumbing shafts, creating health hazards and foul odor in utility balconies.",
     solution:
@@ -83,7 +83,7 @@ const caseStudiesData: CaseStudy[] = [
     title: "Compact Balcony Space Optimization with Ceiling Drying System",
     location: "Tambaram, Chennai, Tamil Nadu",
     serviceCategory: "Ceiling Cloth Hangers",
-    image: "/images/hero/cloth-drying-hanger.jpg",
+    image: "/images/main-images/cloth-Hangers3.jpg",
     challenge:
       "A 2-BHK apartment balcony was cluttered with cumbersome folding metal clothes stands that blocked natural light and restricted access to the washing machine.",
     solution:

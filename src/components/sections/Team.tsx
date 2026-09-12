@@ -18,17 +18,17 @@ const teamWorkGallery: GalleryItem[] = [
   },
   {
     id: 2,
-    image: "/images/services/shyambalconygrills.jpg",
+    image: "/images/main-images/Balcony-Grills.jpg",
     caption: "SS316 Marine Wire Hydraulic Tensioning",
   },
   {
     id: 3,
-    image: "/images/materials/clothhangerwork.jpeg",
+    image: "/images/main-images/clothhanger-work.jpg",
     caption: "Precision Ceiling Pulley Track Mounting",
   },
   {
     id: 4,
-    image: "/images/materials/FactoryNets.jpeg",
+    image: "/images/main-images/Duct-Area-3.jpg",
     caption: "Vertical Duct Shaft & Industrial Netting",
   },
   {
