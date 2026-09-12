@@ -20,7 +20,7 @@ export default function FeaturedServices() {
       title: "Balcony Invisible Grills",
       category: "Modern Architecture",
       desc: "Aerospace-grade SS316 stainless cables anchored in slim aluminium channels. Enjoy unhindered 180° views with 400kg+ tensile breaking strength.",
-      image: "/images/hero/hero_invisible_grill.png",
+      image: "/images/services/shyambalconygrills.jpg",
       altText: "Ram Enterprises SS316 invisible wire grills installed on a modern Chennai balcony",
       link: "/services/balcony-invisible-grills",
       features: ["SS316 marine stainless core", "400kg+ tensile wire strength", "100% rust-proof guarantee"],

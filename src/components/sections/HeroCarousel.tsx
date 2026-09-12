@@ -24,7 +24,7 @@ const slides: Slide[] = [
     title: "High-Rise Balcony Protection &",
     highlight: "SS316 Invisible Grills",
     subtitle: "Protect your family with high-tensile safety netting and aircraft-grade stainless wire barriers engineered specifically for Chennai high-rise apartments.",
-    image: "/images/hero/hero_invisible_grill.png",
+    image: "/images/services/shyambalconygrills.jpg",
     altText: "Ram Enterprises marine-grade SS316 invisible wire grills installed on an upscale Chennai high-rise balcony",
     ctaText: "Explore Invisible Grills",
     ctaLink: "/services/balcony-invisible-grills",
