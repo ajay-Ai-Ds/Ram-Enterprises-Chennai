@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   ],
   metadataBase: new URL("https://ramenterpriseschennai.com"),
   verification: {
-    google: "sxBWfisev7KdCvC-tTgSvXcK8pizCa5U-tnWHB-SUhE",
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE",
   },
   alternates: {
     canonical: "/",
