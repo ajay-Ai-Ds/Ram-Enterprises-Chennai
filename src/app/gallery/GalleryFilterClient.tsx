@@ -112,6 +112,14 @@ const galleryData: GalleryPhoto[] = [
     serviceName: "Anti-Bird Nets",
     description: "Anti-bird netting secured around building exteriors to protect against pigeons.",
   },
+  {
+    image: "/images/main-images/monkey-safety.webp",
+    category: "safety-nets",
+    categoryLabel: "Safety Nets",
+    location: "Guindy, Chennai, Tamil Nadu",
+    serviceName: "Monkey Safety Nets",
+    description: "Heavy-duty reinforced monkey defense netting installed around open terrace and balconies.",
+  },
 ];
 
 const filters = [
